@@ -16,7 +16,7 @@ After [Sign up] go to [Hetzner Cloud Console] and create a project with "+ new p
 
 Generate an API Token with clicking on the project just created and choose security and API-Tokens.
 
-The above mentioned tasks also work with hcloud Commandline tool. You have to confirm with you API Token just created.
+The above mentioned tasks also work with hcloud Commandline tool. You have to confirm with your API Token just created.
 
 `hcloud create context k8-learn`
 
@@ -26,7 +26,7 @@ Next we have to create a SSH Key for adding to our Server that we will provision
 
 For Windows we follow the infos presented under [Generate SSH Keys in Windows]
 
-For *ix Systems we issue the follow the tutorials [Generate SSH Keys with ssh-gen] with a Name for example an Emailaddress or a Label for later steps
+For *ix Systems we make use of the steps presented under [Generate SSH Keys with ssh-gen] with a Name for example an Emailaddress or a Label for later steps
 
 e.g.
 
@@ -84,7 +84,7 @@ Now we can follow the steps presented in LFS 258 Chapter 3 Installation and Conf
 
 ## Let's use the process and provision with terraform
 
-As you could see it might be cumbersome to install all the stuff on the machines.
+As you could see it might be cumbersome to install all the stuff on the machines. We will use the steps presented here and will automate the stuff with terraform.
 
 
 
@@ -95,3 +95,4 @@ As you could see it might be cumbersome to install all the stuff on the machines
 [Sign up]: https://www.hetzner.com/cloud?country=de
 [Generate SSH Keys in Windows]: https://www.ssh.com/academy/ssh/putty/windows/puttygen
 [Generate SSH Keys with ssh-gen]: https://www.ssh.com/academy/ssh/keygen
+[Terraform]: https://www.terraform.io
