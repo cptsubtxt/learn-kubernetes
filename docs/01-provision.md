@@ -97,4 +97,4 @@ As you could see it might be cumbersome to install all the stuff on the machines
 [Generate SSH Keys in Windows]: https://www.ssh.com/academy/ssh/putty/windows/puttygen
 [Generate SSH Keys with ssh-gen]: https://www.ssh.com/academy/ssh/keygen
 [Terraform]: https://www.terraform.io
-[Install K8 on Commandline]: docs/02-install-k8.md
+[Install K8 on Commandline]: 02-install-configure-k8.md

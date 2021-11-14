@@ -30,6 +30,7 @@ We will set up a cluster compliant with CKA Requirements as outlined in [CKA & C
 ## Labs
 
 * [01 | Provision the hosts](docs/01-provision.md)
+* [02 | Installation and Configuration of K8](docs/02-install-k8.md)
 
 ## Further Reading
 
