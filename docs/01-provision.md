@@ -81,10 +81,11 @@ done
 
 Now we can follow the steps presented in LFS 258 Chapter 3 Installation and Configuration.
 
+See [Install K8 on Commandline]
 
 ## Let's use the process and provision with terraform
 
-As you could see it might be cumbersome to install all the stuff on the machines. We will use the steps presented here and will automate the stuff with terraform.
+As you could see it might be cumbersome to install all the stuff on the machines. We will use the steps presented here and will automate the stuff with [Terraform].
 
 
 
@@ -96,3 +97,4 @@ As you could see it might be cumbersome to install all the stuff on the machines
 [Generate SSH Keys in Windows]: https://www.ssh.com/academy/ssh/putty/windows/puttygen
 [Generate SSH Keys with ssh-gen]: https://www.ssh.com/academy/ssh/keygen
 [Terraform]: https://www.terraform.io
+[Install K8 on Commandline]: docs/02-install-k8.md
