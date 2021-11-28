@@ -34,10 +34,13 @@ add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(
 apt-get install -y docker-ce docker-ce-cli
 ```
 
-We gonna want to check if docker is installed the right way with this command:
+We gonna wanna check if docker is installed the right way with this command:
 
 `docker info`
 
+We might get an error that we can fix with adding this to daemon.json config of docker.
+
+```console
 cat > /etc/docker/daemon.json <<EOF
 {
   "exec-opts": ["native.cgroupdriver=systemd"],
@@ -50,6 +53,7 @@ cat > /etc/docker/daemon.json <<EOF
   "registry-mirrors": ["http://23.88.110.237:5000"]
 }
 EOF
+```
 
 We restart Docker Daemon after all operations are done.
 
